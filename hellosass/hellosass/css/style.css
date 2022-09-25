@@ -21,6 +21,8 @@
 }
 
 .link {
+  font-size: 80px;
+  color: green;
   color: #000;
   text-decoration: underline;
   font-size: 100px;
@@ -36,4 +38,6 @@
   font-size: 80px;
   /*@extend %tplborder;*/
   border-bottom: 5px dashed #000;
+  font-size: 50px;
+  color: green;
 }

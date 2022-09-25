@@ -13,6 +13,12 @@ $color_2:#fff;
    font-size: 50px;
    border-bottom:5px dashed red;
 }
+
+@mixin fontz ($f,$c) {
+   font-size: $f;
+   color: $c;
+}
+
 .block{
    padding: 30px;
    font-size: 54px;
@@ -25,6 +31,7 @@ $color_2:#fff;
    }
 }
 .link{
+   @include fontz(80px,green);
    color: $color_1;
    text-decoration: underline;
    font-size: $fz;
@@ -43,4 +50,5 @@ $color_2:#fff;
    /*@extend %tplborder;*/
    @extend .tplborder;
    border-bottom: 5px dashed #000;
+   @include fontz(50px,green)
 }
