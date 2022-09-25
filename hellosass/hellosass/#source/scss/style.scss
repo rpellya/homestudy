@@ -16,28 +16,34 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
+$fz:100px;
+$color_1: #000;
+$color_2:#fff;
+
+
+
 .block{
    padding: 30px;
    font-size: 54px;
    line-height: 60px;
    .block__text{
-      font-size: 80px;
+      font-size: $fz;
       span{
          color: green;
       }
    }
 }
 .link{
-   color: blue;
+   color: $color_1;
    text-decoration: underline;
-   font-size: 20px;
+   font-size: $fz;
 
    .block &{
-      font-size: 100px;
+      font-size: $fz;
    }
 
    &:hover{
-      color: green;
+      color: $color_2;
    }
 
 }
