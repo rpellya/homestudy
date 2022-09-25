@@ -1,4 +1,13 @@
 @import url(nul);
+/* %tplborder{
+   font-size: 100px;
+   border-bottom: 5px dashed red;
+}*/
+.tplborder, .link-2, .link {
+  font-size: 50px;
+  border-bottom: 5px dashed red;
+}
+
 .block {
   padding: 30px;
   font-size: 54px;
@@ -21,4 +30,10 @@
 }
 .link:hover {
   color: #fff;
+}
+
+.link-2 {
+  font-size: 80px;
+  /*@extend %tplborder;*/
+  border-bottom: 5px dashed #000;
 }

@@ -1,12 +1,18 @@
 @import url(nul);
 
-
 $fz:100px;
 $color_1: #000;
 $color_2:#fff;
 
-
-
+//Так же можно
+/* %tplborder{
+   font-size: 100px;
+   border-bottom: 5px dashed red;
+}*/
+.tplborder{
+   font-size: 50px;
+   border-bottom:5px dashed red;
+}
 .block{
    padding: 30px;
    font-size: 54px;
@@ -30,5 +36,11 @@ $color_2:#fff;
    &:hover{
       color: $color_2;
    }
-
+   @extend .tplborder;
+}
+.link-2{
+   font-size: 80px;
+   /*@extend %tplborder;*/
+   @extend .tplborder;
+   border-bottom: 5px dashed #000;
 }
