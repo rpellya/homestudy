@@ -1,5 +1,9 @@
+//Файл обнуляющих стилей
+
 @import url(nul);
 
+
+// Переменные для блока
 $fz:100px;
 $color_1: #000;
 $color_2:#fff;
@@ -9,6 +13,7 @@ $color_2:#fff;
    font-size: 100px;
    border-bottom: 5px dashed red;
 }*/
+// Шаблон №1
 .tplborder{
    font-size: 50px;
    border-bottom:5px dashed red;
