@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
-
+@font-face {
+  font-family: 'Hagin';
+  src: url('../../fonts/Hagin\ Caps\ Medium.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 //Файл обнуляющих стилей
 
 @import 'nullstyle.scss';
 
  .text{
-
    font-weight: 700;
    font-family: "PT Sans";
    font-size: 30px;
    line-height: 35px;
    p{margin: 0px 0px 30px 0px ;}
  }
+ .text-PFD{
+  font-weight: 700;
+  font-family: "Hagin";
+  font-size: 30px;
+  line-height: 35px;
+ } 
