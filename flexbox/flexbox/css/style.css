@@ -85,15 +85,12 @@ body {
 
 .block__row {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   border: 20px solid #ece89d;
   margin: 0 0 20px 0;
 }
 .block__column {
   border: 20px solid #5e5373;
-}
-.block__column:nth-child(2) .block__item {
-  font-size: 80px;
 }
 .block__item {
   background-color: #18b5a4;
