@@ -13,8 +13,8 @@ body{
 .block {
 
    &__row {
-      display: inline-flex;
-      flex-direction: row;
+      display: flex;
+      justify-content: flex-end;
 
       border: 20px solid #ece89d;
       margin: 0 0 20px 0;
