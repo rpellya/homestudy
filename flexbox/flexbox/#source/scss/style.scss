@@ -14,7 +14,7 @@ body{
 
    &__row {
       display: flex;
-      justify-content: flex-end;
+      align-items: center;
 
       border: 20px solid #ece89d;
       margin: 0 0 20px 0;
@@ -22,6 +22,11 @@ body{
 
    &__column {
       border: 20px solid #5e5373;
+      &:nth-child(2){
+         .block__item{
+            font-size: 80px;
+         }
+      }
    }
 
    &__item {
@@ -30,6 +35,7 @@ body{
       font-size: 50px;
       color: #fff;
       font-weight: 700;
+      text-align: center;
    }
 
    &__list {
