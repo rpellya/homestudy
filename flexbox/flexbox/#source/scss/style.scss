@@ -14,7 +14,7 @@ body{
 
    &__row {
       display: flex;
-      align-items: center;
+      flex-wrap: wrap;
 
       border: 20px solid #ece89d;
       margin: 0 0 20px 0;
@@ -22,16 +22,11 @@ body{
 
    &__column {
       border: 20px solid #5e5373;
-      &:nth-child(2){
-         .block__item{
-            font-size: 80px;
-         }
-      }
    }
 
    &__item {
       background-color: #18b5a4;
-      padding: 30px 50px;
+      padding: 50px 50px;
       font-size: 50px;
       color: #fff;
       font-weight: 700;
