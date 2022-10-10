@@ -14,7 +14,7 @@ body{
 
    &__row {
       display: flex;
-      flex-wrap: wrap;
+      align-items: center;
 
       border: 20px solid #ece89d;
       margin: 0 0 20px 0;
@@ -22,6 +22,15 @@ body{
 
    &__column {
       border: 20px solid #5e5373;
+   }
+   &__column_1{
+      align-self: flex-start;
+   }
+   &__column_2{
+
+   }
+   &__column_3{
+      align-self: flex-end;
    }
 
    &__item {
