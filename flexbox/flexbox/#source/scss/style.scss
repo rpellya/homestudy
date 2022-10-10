@@ -13,8 +13,8 @@ body{
 .block {
 
    &__row {
-      display: flex;
-      flex-wrap: wrap;
+      display: inline-flex;
+      flex-direction: row;
 
       border: 20px solid #ece89d;
       margin: 0 0 20px 0;
@@ -46,13 +46,39 @@ body{
       line-height: 15px;
 
       &_y {
+         &::before{
+            content: '';
+            position: absolute;
+            background-color: #ece89d;
+            height: 10px;
+            width: 10px;
+            left: 1px;
+            top: 2px;
+         }
       }
 
       &_p {
+         &::before{
+            content: '';
+            position: absolute;
+            background-color: #5e5373;
+            height: 10px;
+            width: 10px;
+            left: 1px;
+            top: 2px;
+         }
       }
 
       &_g {
+         &::before{
+            content: '';
+            position: absolute;
+            background-color: #18b5a4;
+            height: 10px;
+            width: 10px;
+            left: 1px;
+            top: 2px;
+         }
       }
    }
 }
-
