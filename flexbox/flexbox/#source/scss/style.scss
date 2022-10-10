@@ -21,15 +21,13 @@ body{
 
    &__column {
       border: 20px solid #5e5373;
+      flex: 0 1 auto;
    }
    &__column_1{
-      order: 3;
    }
    &__column_2{
-      order: 2;
    }
    &__column_3{
-      order: 1;
    }
 
    &__item {
