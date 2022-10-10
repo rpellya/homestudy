@@ -85,16 +85,20 @@ body {
 
 .block__row {
   display: flex;
+  flex-direction: column;
+  height: 700px;
   border: 20px solid #ece89d;
   margin: 0 0 20px 0;
 }
 .block__column {
   border: 20px solid #5e5373;
-  flex: 0 1 auto;
+}
+.block__column_2 {
+  flex: 1 1 auto;
 }
 .block__item {
   background-color: #18b5a4;
-  padding: 50px 50px;
+  padding: 20px 50px;
   font-size: 50px;
   color: #fff;
   font-weight: 700;
